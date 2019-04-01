@@ -13,10 +13,10 @@ This is the official documentation of the CircuitVerse simulator. This is meant 
 
 ```sh
 git clone https://github.com/<username>/CircuitVerseDocs.git
-cd CircuitVerseDocs
+cd CircuitVerseDocs 
 ```
 
-To view the docs in offline mode, navigate to `/docs` folder and run
+To view the docs in offline mode, navigate to `/docs` folder and run below
 `python3 -m http.server` or
 `python -m SimpleHTTPServer 8000`
 
