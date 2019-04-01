@@ -2,7 +2,7 @@
 
 This component implements a very simple dumb terminal. It receives a sequence of ASCII codes and displays each printable character
 
-# Pins in CircuitVerse
+# Pins in CircuitVerse {docsify-ignore}
 
 * West edge, upper pin (input, bit width 7)
   Data - this is the ASCII value of the next character to be entered into the terminal.
@@ -22,7 +22,7 @@ This component implements a very simple dumb terminal. It receives a sequence of
  
  This component allows the circuit to read keys typed from the keyboard - as long as the keys are representable in the 7-bit ASCII code.
  
- # Pins in CircuitVerse
+ # Pins in CircuitVerse {docsify-ignore}
  
  * West edge, marked by a triangle (input, bit width 1)
    Clock - when triggered while the read-enable pin isn't 0, the leftmost character from the buffer is deleted, and the outputs are updated to reflect the buffer's new status.
